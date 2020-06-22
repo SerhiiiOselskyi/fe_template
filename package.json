@@ -20,6 +20,7 @@
   "author": "bran4u",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^4.2.5",
     "parcel": "^1.12.4"
   }
 }
