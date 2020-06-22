@@ -4,7 +4,8 @@
   "description": "Boilerplate for FE projects",
   "main": "./src/index.html",
   "scripts": {
-    "start": "parcel ./src/index.html --open"
+    "start": "parcel ./src/index.html --open",
+    "build": "rm -rf ./dist && parcel build ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,6 +16,7 @@
   "author": "bran4u",
   "license": "ISC",
   "devDependencies": {
+    "node-sass": "^4.14.1",
     "parcel": "^1.12.4"
   }
 }
