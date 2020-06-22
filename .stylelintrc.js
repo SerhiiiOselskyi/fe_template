@@ -3,3 +3,10 @@ module.exports = {
     "@mate-academy/stylelint-config"
   ],
 };
+{
+  ...
+	env: {
+	  jest: true,
+	},
+	plugins: ['jest'],
+}
